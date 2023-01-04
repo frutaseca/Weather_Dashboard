@@ -1,5 +1,28 @@
-.five-day-forecast-header {
+.five-day-weather-header {
   font-size: 50px;
+}
+
+.searched-cities {
+    display: flex;
+    flex-direction: column;
+}
+  
+.day {
+    background: #000000;
+    color: white;
+    list-style: none;
+    padding: 20px;
+}
+
+.five-day-weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current-weather ul {
+    list-style: none;
+    border: 5px solid;
 }
 
  header {
